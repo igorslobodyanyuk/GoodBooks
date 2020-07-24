@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodBooks.Api", "GoodBooks.Api\GoodBooks.Api.csproj", "{A1E77AB1-05E1-422B-AB1B-AC8FB10B88BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodBooks.Data.Model", "GoodBooks.Data.Model\GoodBooks.Data.Model.csproj", "{F8B067C3-C0D3-4214-9D8C-223749805B65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodBooks.BusinessLogic", "GoodBooks.BusinessLogic\GoodBooks.BusinessLogic.csproj", "{67C87F00-8D92-49BB-9C68-D109C62CBFA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodBooks.Common", "GoodBooks.Common\GoodBooks.Common.csproj", "{BEC9569B-12F3-4A26-99E9-9904FAA86B14}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{154F61FA-938F-4433-B72D-B976BB893EFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodBooks.Elasticsearch", "GoodBooks.Elasticsearch\GoodBooks.Elasticsearch.csproj", "{2DA1AB29-BEF3-4AA0-9BB6-E1BA1D695A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodBooks.Test", "GoodBooks.Test\GoodBooks.Test.csproj", "{9C12300A-85ED-45F3-9A64-5C94F24DAB23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1E77AB1-05E1-422B-AB1B-AC8FB10B88BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E77AB1-05E1-422B-AB1B-AC8FB10B88BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E77AB1-05E1-422B-AB1B-AC8FB10B88BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E77AB1-05E1-422B-AB1B-AC8FB10B88BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B067C3-C0D3-4214-9D8C-223749805B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B067C3-C0D3-4214-9D8C-223749805B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B067C3-C0D3-4214-9D8C-223749805B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B067C3-C0D3-4214-9D8C-223749805B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C87F00-8D92-49BB-9C68-D109C62CBFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C87F00-8D92-49BB-9C68-D109C62CBFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C87F00-8D92-49BB-9C68-D109C62CBFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C87F00-8D92-49BB-9C68-D109C62CBFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC9569B-12F3-4A26-99E9-9904FAA86B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC9569B-12F3-4A26-99E9-9904FAA86B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC9569B-12F3-4A26-99E9-9904FAA86B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC9569B-12F3-4A26-99E9-9904FAA86B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154F61FA-938F-4433-B72D-B976BB893EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154F61FA-938F-4433-B72D-B976BB893EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154F61FA-938F-4433-B72D-B976BB893EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154F61FA-938F-4433-B72D-B976BB893EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA1AB29-BEF3-4AA0-9BB6-E1BA1D695A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA1AB29-BEF3-4AA0-9BB6-E1BA1D695A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA1AB29-BEF3-4AA0-9BB6-E1BA1D695A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA1AB29-BEF3-4AA0-9BB6-E1BA1D695A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C12300A-85ED-45F3-9A64-5C94F24DAB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C12300A-85ED-45F3-9A64-5C94F24DAB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C12300A-85ED-45F3-9A64-5C94F24DAB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C12300A-85ED-45F3-9A64-5C94F24DAB23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {833D8B43-A33E-4F6B-8872-E7D45F7E4110}
+	EndGlobalSection
+EndGlobal

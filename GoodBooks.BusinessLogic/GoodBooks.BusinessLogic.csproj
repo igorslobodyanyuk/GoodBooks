@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="CsvHelper" Version="15.0.5" />
+    <PackageReference Include="NEST" Version="7.8.1" />
+    <PackageReference Include="Z.EntityFramework.Extensions.EFCore" Version="3.0.84" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GoodBooks.Common\GoodBooks.Common.csproj" />
+    <ProjectReference Include="..\GoodBooks.Data.Model\GoodBooks.Data.Model.csproj" />
+  </ItemGroup>
+
+</Project>
