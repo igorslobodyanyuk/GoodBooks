@@ -1,6 +1,6 @@
 # GoodBooks
 
-GoodBooks is a Books API solution for Vården Online Sverige AB.
+GoodBooks is a Books API solution.
 
 ## Installation and usage
 
